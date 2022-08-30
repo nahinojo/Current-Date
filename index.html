@@ -2,9 +2,24 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Clock</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+        <div class="clock">
+            <span id="hour">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+            <span id="meridiem">AM</span>
+        </div>
+        <div class="date">
+            <span id="month">January</span>
+            <span id="day">1</span><span id="suffix">st</span><span>, </span>
+            <span id="year">2000</span>
+        </div>
     </body>
-    <script defer src="js/script.js"></script>
+    <script defer src="time.js"></script>
 </html>
