@@ -1,2 +1,2 @@
-# clocksite
-A website of a clock.
+# current-time
+A website showing the current time of day.
