@@ -48,7 +48,8 @@ function updateClock () {
     document.getElementById('hour').innerHTML = hour;
     document.getElementById('min').innerHTML = min;
     document.getElementById('sec').innerHTML = sec;
-    document.getElementById('colon').innerHTML = ':';
+    document.getElementById('colon-hm').innerHTML = ':';
+    document.getElementById('colon-ms').innerHTML = ':';
     document.getElementById('comma').innerHTML = ', ';
 }
 
