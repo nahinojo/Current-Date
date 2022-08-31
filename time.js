@@ -48,7 +48,9 @@ function updateClock () {
     document.getElementById('hour').innerHTML = hour;
     document.getElementById('min').innerHTML = min;
     document.getElementById('sec').innerHTML = sec;
+    document.getElementById('colon').innerHTML = ':';
+    document.getElementById('comma').innerHTML = ', ';
 }
 
-setInterval(updateClock,10)
+setInterval(updateClock,250)
 
