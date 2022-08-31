@@ -18,7 +18,7 @@ div {
     right: 50%;
 }
 .clock {
-    font-size: calc(12px + 4.0vw);
+    font-size: calc(12px + 3.5vw);
     margin-bottom: var(--separation);
 }
 
