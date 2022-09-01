@@ -32,11 +32,14 @@ function updateClock () {
     var min = zeroFormat(d.getMinutes());
     var sec = zeroFormat(d.getSeconds());
 
-    if (hour == 0) {
+    if (hour < 12) {
+        document.getElementById('meridiem').innerHTML = "AM";
+        if (hour == 0) {
         hour = 12;
+        }
     } else if (hour >= 12){
         document.getElementById('meridiem').innerHTML = "PM";
-        if (hour >= 13){
+        if (hour > 12){
             hour -= 12;
         }
     }
